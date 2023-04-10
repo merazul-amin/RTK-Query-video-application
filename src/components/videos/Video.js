@@ -37,7 +37,7 @@ export default function Video({ video }) {
                             {author}
                         </span>
                         <p className="text-gray-400 text-xs">
-                            200 views . {date}
+                            {views} views . {date}
                         </p>
                     </div>
                 </div>
